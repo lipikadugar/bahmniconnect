@@ -41,8 +41,7 @@
                 }
             },
             "addressHierarchy": {
-                "showAddressFieldsTopDown": false,
-                "strictAutocompleteFromLevel": "stateProvince"
+                "showAddressFieldsTopDown": false
             },
             "relationshipTypeMap": {
                 "Doctor":"provider",
