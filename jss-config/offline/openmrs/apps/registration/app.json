@@ -55,6 +55,7 @@
             "showMiddleName": true,
             "showBirthTime": true,
             "showCasteSameAsLastNameCheckbox": false,
+            "disablePhotoCapture":true,
             "printOptions": [
                 {
                     "translationKey": "REGISTRATION_PRINT_REG_CARD_LOCAL_KEY",
