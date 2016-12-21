@@ -21,7 +21,7 @@
     "config": {
         "quickPrints":false,
         "networkConnectivity" : {
-            "showNetworkStatusMessage": true,
+            "showNetworkStatusMessage": false,
             "networkStatusCheckInterval": 5000,
             "locales" : [
                 { "locale" : "fr", "css" : "offline-language-french"},
@@ -48,15 +48,15 @@
         "visitTypeForRetrospectiveEntries": "Special OPD",
         "maxConceptSetLevels": 3,
         "conceptSetUI": {
-            "All Observation Templates": {
-                "showPanelView": false
-            },
             "Chief Complaint Data": {
                 "autocomplete":true,
                 "codedConceptName":"Chief Complaint",
                 "nonCodedConceptName":"Non-Coded Chief Complaint",
                 "durationRequired": false,
                 "allowAddMore": true
+            },
+            "Testing Diagnosis" : {
+                "multiSelect" : true
             },
             "Posture": {
                 "buttonSelect": true
