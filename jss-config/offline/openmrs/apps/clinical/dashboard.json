@@ -2,7 +2,7 @@
 	"general": {
 		"translationKey": "DASHBOARD_TAB_GENERAL_KEY",
 		"displayByDefault": true,
-		"maxRecentlyViewedPatients": 10,
+		"maxRecentlyViewedPatients": 1,
 		"sections": {
 			"patientInformation": {
 				"translationKey": "DASHBOARD_TITLE_PATIENT_INFORMATION_KEY",
@@ -36,6 +36,25 @@
 					"numberOfVisits": 10
 				}
 			},
+			"diagnosis": {
+                		"title": "Suspect Diagnosis",
+                		"type": "diagnosis",
+                		"isObservation": true,
+                		"dashboardConfig": {
+                    			"conceptNames": [
+                        			"Diagnosis Template"
+                    			],
+                    			"numberOfVisits": 2
+                		}
+            		},
+			"diagnosis":{
+                                "translationKey":"DASHBOARD_TITLE_DIAGNOSIS_KEY",
+                                "type":"diagnosis",
+                                "showCertainty":true,
+                                "showOrder":true,
+                                "showDetailsButton":true,
+                                "displayOrder":1
+                        },
 			"nutritionalValues": {
 				"translationKey": "DASHBOARD_TITLE_NUTRITIONAL_VALUES_KEY",
 				"type": "vitals",
